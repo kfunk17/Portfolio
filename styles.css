@@ -1,0 +1,517 @@
+/* This is the stylesheet for index.html for personal portfolio
+   Author: Karie Funk
+   Code attribution: CS3 Schools
+*/
+
+.article{
+  background-image:url("Img/ANOTHER.jpg");
+  background-color: #3d3939;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  
+}
+
+#topImage{
+  background-image:url("Img/computerfinal.webp");
+  background-color: #3d3939;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  text-align: center;
+  padding-top:20em;
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+}
+
+.article p{
+  color: white;
+  margin-left:35px;
+  margin-right:35px;
+}
+
+#text {
+  position: absolute; 
+  text-align: center;
+  width: 100%;
+  height: 0%;
+  margin: auto;
+  top: -200px;;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 51;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:80px;
+  text-shadow: -3px -3px 3px #000;
+}
+
+
+* { color:#fff; text-decoration: none;}
+
+p{
+  font-family: 'Darker Grotesque', sans-serif;
+  color: black;
+ }
+   
+html{
+  background-color: #fffff2;
+  scroll-behavior: smooth;
+}
+
+body{
+    height: auto;
+    margin: 0px;
+
+    margin-top: -5px;
+    margin-bottom:10px;
+}
+
+
+
+footer{
+  background-color: black;
+  text-align: center;
+  height: 30px;
+  color: white;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  width:300px;
+  height: 370px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  margin-bottom:-20px;
+  overflow: hidden;
+  background-color: #212429;
+  border-top:2px solid white;
+  border-bottom: 1px solid white;
+  z-index: 99999;
+  
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar a.active {
+  color: #b2d690;
+}
+
+.navbar a.active:hover{
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  overflow: none;
+
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+
+}
+
+
+.about{
+  font-size: 1.60em;
+  text-align: left; /* For Edge */
+  -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+  text-align-last: left;
+  padding: 35px;
+  
+}
+
+.about p{
+  padding-bottom:125px;
+}
+
+.about a{
+   color: white;
+   text-decoration: none;
+}
+
+.about a:hover{
+  color: #b2d690;
+}
+
+.about a:active{
+  color: white;
+}
+
+.about-space{
+  height:100px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    margin-left: 20%;
+}
+        
+.form-control{
+    width: 600px;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size:18px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+ }
+        
+input{
+   height: 45px; 
+    }
+       
+form .submit{
+    background:white;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 35px;
+    margin-top: 20px;
+}
+        
+form .submit:hover{
+    background-color: black;
+    color: white;
+}
+        
+
+.proj, .contact{
+  padding-top:60px;
+  padding-bottom:20px;
+  color: white;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+button{
+  margin-left:400px;
+
+}
+
+.cont{
+    background-image:url("Img/ANOTHER.jpg");
+    background-color: #3d3939;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 100%;
+  }
+  
+.cont p{
+    color: white;
+    margin-left:35px;
+    margin-right:35px;
+   }
+  
+
+.cont h1{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /*Project Adobe Gallery */
+
+  
+            
+/*Responsive code */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    width:170px;
+    height: 240px;
+}
+
+#text {
+  position: absolute; 
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  top: -200px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: -3px -3px 3px #000;
+  font-size: 80px;
+}
+
+#about h2{
+    margin-left:90px;
+}
+
+
+}
+
+.Karie{
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 35px;
+  }
+
+.article img{
+padding-top:80px;
+margin-bottom:-5px;
+}
+
+h3, p{
+  color:white;
+}
+
+h3 a{
+  text-decoration: none;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h3 a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.contact{
+   margin-top:-58px;
+   border-top:1px solid white;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/*Gallery*/
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.proj-gal{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proj-gal img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.round{
+  box-sizing: content-box;
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  border: 1px solid white;
+
+}
+
+.space{
+
+  height:400px;
+
+}
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.title{
+font-size: 35px;
+text-decoration: none;
+}
+
+.title:hover{
+
+  color: blue;
+  text-decoration: none;
+}
+
+.title:active{
+  color: lightgreen;
+}
+
+.top-coat{
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.round:hover img { 
+  transform: scale(1.1);
+}
+
+.round:hover .top-coat{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.round:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.round:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+.row {
+  border-top:1px solid white;
+  background-color: #202125;
+  width:100%;
+  margin-top:-40px;
+}
+ 
+  
+}
+
+.row img{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.row p{
+  color: white;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1090px) {
+  .column {
+    width: 100%;
+  }
+
+  #text {
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    top: -200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:80px;
+    text-shadow: -3px -3px 3px #000;
+  }
+
+
+
+  
+ 
+  
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  #text {
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    top: -200px;;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:60px;
+    text-shadow: -3px -3px 3px #000;
+  }
+
+
+
+  .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    width:270px;
+    height: 340px;
+}
+  
+
+}
+
+
